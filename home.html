@@ -4,19 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php echo View::make('parts.style') ?>
-    <?php echo View::make('parts.script-haut') ?>
+    <link href="style.css" rel="stylesheet">
+    <title>RIGEL</title>
+    <link rel="shortcut icon" type="image/png" href="images/rigel.png"/>
 
 </head>
 
 <body>
     <div class="header">
-        <a>Téléchargez le jeu</a>
+        <a href="wip.html">Téléchargez le jeu</a>
     </div>
     <div class="banner">
-        <a href="wip"><img src="images/rigel.png"></a></br>
+        <a href="wip.html"><img src="images/rigel.png"></a></br>
         <h2>Rejoignez RIGEL !</h2></br>
-        <a class="button" href="wip">Télécharger</a>
+        <a class="button" href="wip.html">Télécharger</a>
     </div>
     <div class="separation"></div>
     <div class="texte">
@@ -87,20 +88,14 @@
     <footer class="footer-container">
         <div class="footer-item">
             <h3>Nos réseaux :</h3>
-            <a href="https://twitter.com/home"><img src="/images/twitter.png" alt="twitter"></a><br>
-            <a href="https://www.instagram.com/?hl=fr"><img src="/images/instagram.png" alt="intagram"></a><br>
-            <a href="https://www.pinterest.fr/"><img src="/images/pinterest.png" alt="pinterest"></a><br>
-            <a href="https://www.facebook.com/"><img src="/images/facebook.png" alt="facebook"></a>
-        </div>
-        <div class="footer-item">
-            <h3>Notre équipe :</h3><br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt risus et luctus rhoncus. Ut lacus
-            odio, ornare eu ligula at, auctor dapibus ipsum. Aliquam erat nunc, sodales non velit sit amet, viverra
-            efficitur dolor. Suspendisse placerat urna sit amet vestibulum dignissim.</p>
-        </div>
+            <a href="https://twitter.com/home"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/?hl=fr"><img src="images/instagram.png" alt="intagram"></a>
+            <a href="https://www.pinterest.fr/"><img src="images/pinterest.png" alt="pinterest"></a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+        </div>  
         <div class="footer-item ">
-            <h3>Télécharger le jeu :</h3>
-            <a href="wip"><img src="/images/rigel_2.png" alt=""></a>
+            <h3>Télécharger le jeu :</h3><br>
+            <a class="button" href="wip.html">Télécharger</a>
         </div>
 
     </footer>
@@ -108,3 +103,19 @@
 
 
 </html>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script>
+        jQuery(function () {
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 200) {
+                        $('#scrollUp').css('right', '10px');
+                    } else {
+                        $('#scrollUp').removeAttr('style');
+                    }
+
+                });
+            });
+        });
+
+    </script>

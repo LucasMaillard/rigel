@@ -1,10 +1,10 @@
-<style>
-
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:700&display=swap');
-@font-face{
-    font-family: ;
-    src: url('.../public/static/fonts/TravelingTypewriter.ttf')
+
+@font-face {
+    font-family: 'TravelingTypewriter';
+    src: url('.../fonts/TravelingTypewriter.ttf')
 }
+
 /*-HEADER-*/
 
 .header {
@@ -16,6 +16,7 @@
 .header a {
     padding-left: 1620px;
     text-decoration: none;
+    color: white;
 }
 
 .header a:hover {
@@ -41,7 +42,7 @@
     text-shadow: 0.1em 0.1em 0.1em black;
     text-decoration: none;
     font-family: 'Cinzel Decorative', cursive;
-    
+
 }
 
 .banner a:hover {
@@ -81,8 +82,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: #262626;
-    font-family: "TravelingTypewriter";
-    
+    font-family: 'TravelingTypewriter';
+
 }
 
 body h3,
@@ -163,7 +164,7 @@ p {
     width: 350px;
     height: 200px;
     text-align: center;
-    
+
 }
 
 
@@ -173,7 +174,3 @@ p {
     text-align: center;
     color: white;
 }
-
-
-
-</style>
