@@ -5,6 +5,8 @@
     src: url('.../fonts/TravelingTypewriter.ttf')
 }
 
+
+
 /*-HEADER-*/
 
 .header {
@@ -14,7 +16,6 @@
 }
 
 .header a {
-    padding-left: 1620px;
     text-decoration: none;
     color: white;
 }
@@ -173,4 +174,26 @@ p {
 .wip {
     text-align: center;
     color: white;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .texte {
+        margin: 10px 20px 10px 20px;
+        line-height: 18px;
+        text-justify: inter-word;
+    }
+    
+    .footer-item {
+        margin-top: 300px;
+        padding: 10px;
+        width: 350px;
+        height: 200px;
+        text-align: center;
+    
+    }
 }
