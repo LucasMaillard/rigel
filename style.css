@@ -104,10 +104,10 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    text-align: center;
     padding: 0;
     list-style: none;
     background-color: #1a1a1a;
-    height: auto;
 
 }
 
@@ -223,5 +223,18 @@ p {
         -webkit-border-radius: 11px;
         -moz-border-radius: 11px;
         border-radius: 11px;
+    }
+
+    .container {
+        margin-top: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        text-align: center;
+        padding: 0;
+        list-style: none;
+        background-color: #1a1a1a;
+        height: 1300px;
+    
     }
 }
