@@ -100,11 +100,15 @@ p {
 }
 
 .container {
+    margin-top: 50px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 0;
     list-style: none;
+    background-color: #1a1a1a;
+    height: auto;
+
 }
 
 .item {
@@ -113,9 +117,6 @@ p {
     width: 900px;
     height: 300px;
     text-align: center;
-    border: 2px;
-    border-style: hidden solid hidden hidden;
-    border-color: white;
 }
 
 .item2 {
@@ -187,7 +188,19 @@ p {
         line-height: 18px;
         text-justify: inter-word;
     }
-    
+
+    .footer-container {
+        padding: 750px 50px 10px;
+        background-image: url(images/sol.png);
+        margin-top: 250px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding: 0;
+        list-style: none;
+        position: relative;
+    }
+
     .footer-item {
         margin-top: 300px;
         padding: 10px;
