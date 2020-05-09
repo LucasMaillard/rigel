@@ -150,9 +150,9 @@ p {
 
 
 .footer-container {
-    padding: 750px 50px 10px;
-    background-image: url(images/sol.png);
-    margin-top: 0px;
+   
+    background-image: url(images/sol3.jpg);
+    margin-top: 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
